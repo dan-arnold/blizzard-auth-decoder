@@ -7,7 +7,7 @@ Decodes Blizzard Mobile Authenticator settings file into Serial and Secret Key, 
 ###Usage:
 1.  Configure Blizzard Mobile Authenticator on your Android device.
 2.  Grab /data/data/com.blizzard.bma/shared_prefs/com.blizzard.bma.AUTH_STORE.xml using Root Explorer, adb pull, etc.
-3.  Take the map/string[@name='com.blizzard.bma.AUTH_STORE.HASH] value and paste into the "hash" variable of my code.
+3.  Take the map/string[@name='com.blizzard.bma.AUTH_STORE.HASH'] value and paste into the "hash" variable of my code.
 4.  Compile and run, it will calculate the Serial and Secret Key from the given hash.
 5.  Enter Serial and Secret Key into TOTP app of your choice
 
